@@ -1,10 +1,6 @@
 # Lizard
 
-## Levantar Entorno de Desarrollo
-
-<details>
-<summary>API y Base de Datos</summary>
-</br>
+## Levantar Aplicación con Docker
 
 **Prerrequisitos:**
 
@@ -36,48 +32,12 @@
 
    Aquí, puedes ver la documentación interactiva de la API.
 
-</details>
+4. **Accede a la aplicación móvil desde el navegador:**
 
-<details>
-<summary>Aplicación Móvil</summary>
-</br>
-
-**Prerrequisitos:**
-
-- **Node.js:** Versión 20.x.x. Puedes descargarlo desde el [sitio oficial de Node.js](https://nodejs.org/en).
-- **Ionic CLI:** Versión 7.1.1. Instálalo globalmente usando npm con el siguiente comando:
-
-  ```
-  npm install -g @ionic/cli@7.1.1
-  ```
-
-- **Angular CLI:** Versión 17.1.1. Instálalo globalmente usando npm con el siguiente comando:
-
-  ```
-  npm install -g @angular/cli@17.1.1
-  ```
-
-**Instrucciones:**
-
-1. **Navega a la Carpeta de la Aplicación Móvil:**
-
-   Desde tu terminal, cambia tu directorio a la carpeta de la aplicación móvil dentro del proyecto:
-
-   ```
-   cd ./lizard/
-   ```
-
-2. **Inicia la Aplicación Móvil:**
-
-   Ejecuta el siguiente comando:
-
-   ```
-   ionic serve
-   ```
-
-   Este comando sirve la aplicación y automáticamente la abre en tu navegador web predeterminado en:
+   Una vez que los contenedores estén en funcionamiento, abre tu navegador web y ve a:
 
    ```
    http://localhost:8100
    ```
-</details>
+
+   Aquí, puedes ver la aplicación móvil en funcionamiento.
